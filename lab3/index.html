@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+    <meta charset="utf-8">
+    <script src = "main.js"></script>
+    <style>
+    input.random{
+        
+       background-color: aqua;
+    }
+    input{
+        background-color: coral;
+    }
+    body{
+        background-color:azure;
+    }
+    button {
+        background-color: coral;
+    }
+    </style>
+</head>
+
+<body>
+    <div id = "random">
+    
+        <form action ="main.php" method = "GET">
+            Зарандомить! <input type ="submit" name = "rnd" value = "Рандомные числа" >
+        </form>
+    </div>
+
+    <div >
+        <form action="main.php" method = "GET">
+            Ручной ввод  <input type = "text" name = "notRND" placeholder = "Вводи числа " class = "random">
+            <button  type = "submit">посчитать!</button>
+        </form>
+    </div>
+</body>
+
+</html>
